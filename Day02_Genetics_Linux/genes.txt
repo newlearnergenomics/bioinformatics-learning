@@ -1,0 +1,7 @@
+BRCA1	cancer	high_risk
+TP53	cancer	very_high_risk
+EGFR	cancer	medium_risk
+MYC	cancer	high_risk
+CFTR	cystic_fibrosis	disease_causing
+LDLR	cholesterol	disease_causing
+ATM	cancer	high_risk

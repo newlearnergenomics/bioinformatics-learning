@@ -1,0 +1,6 @@
+gene	tumor_expression	normal_expression	status
+BRCA1	850	500	overexpressed
+TP53	200	800	underexpressed
+EGFR	1500	300	overexpressed
+MYC	2000	400	overexpressed
+CFTR	100	100	normal
