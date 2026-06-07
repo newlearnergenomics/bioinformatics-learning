@@ -1,0 +1,8 @@
+##fileformat=VCFv4.2
+##fileDate=20260607
+##source=samtools
+##reference=reference.fasta
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	50	.	A	T	60	PASS	DP=50;AF=0.5
+chr1	100	.	T	C	40	PASS	DP=30;AF=0.3
+chr2	75	.	G	A	20	PASS	DP=10;AF=0.2

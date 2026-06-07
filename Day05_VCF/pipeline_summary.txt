@@ -1,0 +1,26 @@
+COMPLETE NGS PIPELINE (Days 1-5)
+
+INPUT: DNA Sample
+  ↓ Sequencing
+FASTQ (raw reads)
+  ↓ Alignment
+BAM (aligned reads)
+  ↓ Variant Calling
+VCF (called variants)
+  ↓ Filtering
+VCF_FILTERED (high-quality variants)
+
+FILE FORMATS:
+- FASTQ: 4 lines per read (header, sequence, +, quality)
+- BAM: Binary alignment format
+- VCF: Variant call format
+
+TOOLS USED:
+- bwa: Read alignment
+- samtools: BAM processing
+- bcftools: Variant calling
+
+QUALITY CRITERIA:
+- QUAL > 20: High confidence
+- DP > 10: Enough reads
+- FILTER = PASS: Passed quality checks
